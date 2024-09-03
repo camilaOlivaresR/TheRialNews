@@ -33,9 +33,15 @@ development:
   port: 54320
 
   
-# test:
-#   <<: *default
-#   database: the_rial_news_test
+test:
+  <<: *default
+  database: the_rial_news_test
+
+  username: vagrant 
+  password: ror2024
+  host: localhost
+  port: 54320
+
 
 
 # production:
